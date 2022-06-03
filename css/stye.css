@@ -1,0 +1,115 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+/* common styles */
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.influencer-head {
+    margin-left: 120px;
+
+}
+
+.container {
+    margin-left: 120px;
+    margin-top: 145px;
+}
+
+.start-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.start-first-div {
+    width: 582px;
+    height: 270px;
+}
+
+.influence-head {
+    font-size: 52px;
+    font-weight: 700;
+
+}
+
+.paragragh {
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.preebook-btn {
+    width: 196px;
+    height: 44px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 41px;
+    border: 0;
+}
+
+.fa-arrow-right-long {
+    margin-left: 20px;
+}
+
+.first-camera-div {
+    margin-right: 165px;
+}
+
+.first-camera {
+    width: 440px;
+    height: 414px;
+    transition: transform 0.8s linear;
+}
+
+.first-camera:hover {
+    transform: scale(1.5);
+}
+
+.popular-head {
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-row-gap: 15px;
+    margin-left: 350px;
+}
+
+.product {
+    width: 300px;
+    height: 476px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.tripod {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.tripod-price {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.fa-solid {
+    color: #FB8200;
+}
+
+.fa-star {
+    width: 11px;
+    height: 10px;
+}
+
+.tripod-rating {
+    margin-left: 10px;
+}
+
+.tripod-detail {
+    font-size: 14px;
+    color: #787885;
+}
