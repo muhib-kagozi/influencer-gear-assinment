@@ -4,17 +4,18 @@
 /* common styles */
 body {
     font-family: 'Libre Baskerville', serif;
+    margin: 0%;
 }
 
-.influencer-head {
+header {
     margin-left: 120px;
 
 }
 
-.container {
+/* .container {
     margin-left: 120px;
     margin-top: 145px;
-}
+} */
 
 .start-div {
     display: flex;
@@ -96,7 +97,7 @@ body {
     margin-top: 0;
 }
 
-.fa-solid {
+.orange-arrow {
     color: #FB8200;
 }
 
@@ -112,4 +113,78 @@ body {
 .tripod-detail {
     font-size: 14px;
     color: #787885;
+}
+
+.see-more {
+    display: flex;
+    justify-content: end;
+    margin-right: 526px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgba(224, 44, 109, 0.87);
+}
+
+footer {
+    background-color: #0A0826;
+    height: 239px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+.footer-div {
+    padding-top: 40px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 688px) {
+    header {
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .start-div {
+        display: block;
+    }
+
+    .start-first-div {
+        width: auto;
+        height: auto;
+        padding: 10px;
+    }
+
+    .second-container {
+        justify-content: center;
+    }
+
+    .products {
+        margin: 0%;
+        display: block;
+        justify-content: center;
+        width: 0;
+    }
+
+    .star-rating {
+        display: flex;
+        display: block;
+    }
+
+    .product {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 0%;
+        margin-bottom: 15px;
+    }
+
+    .see-more {
+        margin: 0%;
+        margin-right: 80px;
+    }
+
+
+    footer {
+        display: block;
+    }
+
 }
